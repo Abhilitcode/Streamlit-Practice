@@ -7,7 +7,7 @@ import altair as alt
 
 data = pd.DataFrame(np.random.randn(100,3),columns=['a','b','c'])
 
-st.image("Abhishek_Khale_passport_size_photo.jpg")
+st.image("some_photo.jpg")
 #we can also try st.video() or st.audio
 city = pd.DataFrame({
     'Location': ['Location1', 'Location2', 'Location3'],
